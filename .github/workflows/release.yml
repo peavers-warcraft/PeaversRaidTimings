@@ -2,9 +2,23 @@ name: Release
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - master
+  # ##########################################################################
+  # #  PUSH TRIGGER DISARMED ON PURPOSE - RE-ARM ONCE THE CURSEFORGE PROJECT #
+  # #  EXISTS AND X-Curse-Project-ID IS IN PeaversRaidTimings.toc            #
+  # ##########################################################################
+  #
+  # The shared release workflow has NO new-commit gate: every run bumps the
+  # version, commits, tags and cuts a GitHub release BEFORE it reaches the
+  # CurseForge upload. With no project id that upload exits 1, the job goes
+  # red and the Discord failure webhook fires.
+  #
+  # On `push: master` that happens on the very first push - the initial commit
+  # would tag and half-release an addon that is not ready. Re-arm this in the
+  # same change that adds the project id. Until then use workflow_dispatch.
+  #
+  # push:
+  #   branches:
+  #     - master
 
 permissions:
   contents: write
