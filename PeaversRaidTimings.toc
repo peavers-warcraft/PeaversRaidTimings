@@ -1,0 +1,32 @@
+## Interface: 120001, 120005, 120007
+
+## Title: |cff3abdf7Peavers|rRaidTimings
+## Notes: Race a top-ranked player's actual cast timeline, called out as the fight runs
+## Author: Peavers
+## Version: 0.1.0
+
+## Category-enUS: Peavers
+
+## X-Website: https://peavers.io
+## X-Source-Code: https://github.com/peavers-warcraft/PeaversRaidTimings
+# TODO(curseforge): add `## X-Curse-Project-ID: <id>` once the CurseForge project
+# exists. Created in staging step 5 alongside the release workflow secrets; the
+# release pipeline and .peavers.yml both want the same id.
+
+## Dependencies: PeaversRaidTimingsData, PeaversCommons, PeaversConfig
+## SavedVariables: PeaversRaidTimingsDB
+
+Changelog.lua
+
+src\Config\Config.lua
+src\Config\ConfigUI.lua
+
+src\Core\Spells.lua
+src\Core\Timeline.lua
+src\Core\Announcer.lua
+src\Core\CastWatch.lua
+src\Core\Encounter.lua
+
+src\UI\CueList.lua
+
+src\Main.lua

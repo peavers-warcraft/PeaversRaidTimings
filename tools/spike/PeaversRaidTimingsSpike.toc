@@ -1,0 +1,15 @@
+## Interface: 120001, 120005, 120007
+
+## Title: |cff3abdf7Peavers|rRaidTimingsSpike
+## Notes: THROWAWAY diagnostic. Probes 12.0 secret-value and TTS viability inside a real encounter. Not for release.
+## Author: Peavers
+## Version: 0.0.1
+
+## Category-enUS: Peavers
+## X-Localizations: enUS
+
+## X-Website: https://peavers.io
+
+## SavedVariables: PeaversRaidTimingsSpikeDB
+
+src\Main.lua

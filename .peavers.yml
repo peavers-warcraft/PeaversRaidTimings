@@ -1,0 +1,18 @@
+# .peavers.yml - Addon metadata for peavers.io website
+
+# Icon to display on website
+iconType: RaidRuneIcon
+
+# CurseForge project ID for download statistics
+# TODO(curseforge): fill in once the project exists (staging step 5); must match
+# the X-Curse-Project-ID added to PeaversRaidTimings.toc.
+# curseForgeProjectId:
+
+# Tags for filtering and categorization
+tags:
+  - raid
+  - cooldowns
+  - ghost
+  - dps
+  - healing
+  - tank

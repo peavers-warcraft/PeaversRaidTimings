@@ -1,0 +1,7 @@
+.idea
+*.iml
+.DS_Store
+Screenshot*.png
+
+# wow-api/ci/run-validation.sh writes its rdjson reports here
+.validate

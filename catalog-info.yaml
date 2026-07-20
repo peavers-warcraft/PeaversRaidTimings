@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: PeaversRaidTimings
+  description: "A World of Warcraft addon that replays a top-ranked player's actual cooldown timeline for your spec as an on-screen ghost, announcing each cast via text-to-speech."
+  annotations:
+    github.com/project-slug: peavers-warcraft/PeaversRaidTimings
+spec:
+  type: library
+  lifecycle: experimental
+  owner: peavers-warcraft

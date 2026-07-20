@@ -1,0 +1,23 @@
+package-as: PeaversRaidTimings
+
+required-dependencies:
+  - peaverscommons
+  - peaversraidtimingsdata
+  - peaversconfig
+
+ignore:
+  - .git
+  - .github
+  - .gitignore
+  - .editorconfig
+  - .luacheckrc
+  - .luarc.json
+  - .pkgmeta
+  - README.md
+  - CHANGELOG.md
+  - TESTING.md
+  - PLAN.md
+  - LICENSE
+  - local_deploy.sh
+  - local_deploy.ps1
+  - tools
