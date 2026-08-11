@@ -1,4 +1,4 @@
-## Interface: 120001, 120005, 120007
+## Interface: 120001, 120005, 120007, 120100
 
 ## Title: |cff3abdf7Peavers|rRaidTimingsSpike
 ## Notes: THROWAWAY diagnostic. Probes 12.0 secret-value and TTS viability inside a real encounter. Not for release.

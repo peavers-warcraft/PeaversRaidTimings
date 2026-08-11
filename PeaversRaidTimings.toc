@@ -1,4 +1,4 @@
-## Interface: 120001, 120005, 120007
+## Interface: 120001, 120005, 120007, 120100
 
 ## Title: |cff3abdf7Peavers|rRaidTimings
 ## Notes: Race a top-ranked player's actual cast timeline, called out as the fight runs
